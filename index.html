@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CONNECT Workshop on Networks and Voronoi Diagrams </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="connectVoronoi.css">
+    
+</head>
+
+<body class="">
+    
+    <div class="navbar title__container">
+        <h3 class="title title__text">CONNECT Workshop on Networks and Voronoi Diagrams</h3>
+    </div>
+    <div class="container container__full">
+        <div class="jumbotron jumbotron__container">
+            <div>
+                <p>
+                <p class="header__info__text">📅 June 13th - June 17th 2022.</p>
+                <p class="header__info__text">📍 Universitat Politècnica de Catalunya (UPC)</p>
+                <p class="header__info__text">🏢 Campus de Castelldefels, Building C3, Room 011</p>
+                <iframe class="iframe__mapa"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1499.264689937399!2d1.9857317!3d41.2755818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46ff47504fb035e9!2sUniversidad%20Polit%C3%A9cnica%20de%20Catalu%C3%B1a%20%C2%B7%20Campus%20del%20Bajo%20Llobregat!5e0!3m2!1ses!2ses!4v1654206372128!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <ul class="list-group lista__container">
+                <li class="list-group-item list__leader ">Participants:</li>
+                <li class="list-group-item">Mercè Claverol (UPC)</li>
+                <li class="list-group-item">Andrea de las Heras (UPC)</li>
+                <li class="list-group-item">David Flores (Universidad Nacional Autónoma de México)</li>
+                <li class="list-group-item">Clemens Huemer (UPC)</li>
+                <li class="list-group-item">David Orden (Universidad de Alcalá de Henares)</li>
+            </ul>
+        </div>
+        <div class="list__leader list-group-item" style="border-radius: 0.25rem;">
+            Program:
+        </div>
+    <!--CAMBIAR EL LOCATION HREF A LOS LINKS DE LAS CHARLAS-->
+        <div class="timetable-img text-center">
+            <img src="img/content/timetable.png" alt="">
+        </div>
+
+    <!-- INICIO DE LA TABLA -->
+        <div class="table-responsive">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr class="bg-light-gray">
+                        <th class="text-uppercase">Time
+                        </th>
+                        <th class="text-uppercase">Monday</th>
+                        <th class="text-uppercase">Tuesday</th>
+                        <th class="text-uppercase">Wednesday</th>
+                        <th class="text-uppercase">Thursday</th>
+                        <th class="text-uppercase">Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 10:30 13:30-->
+                    <tr>
+                        <td class="align-middle">10:30 - 13:30</td>
+                        <td class="align-middle">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+
+                        <td class="align-middle">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                    </tr>
+
+                    <!-- 13:30-14:00-->
+
+                    <tr>
+                        <td class="align-middle">13:30 - 14:00</td>
+                        <td class="align-middle">
+                            <span class="bg-lightred table__cell">Break</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-lightred table__cell">Break</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-lightred table__cell">Break</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-lightred table__cell">Break</span>
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-lightred table__cell">Break</span>
+                        </td>
+                    </tr>
+                    <!-- 14:30 - 16:00-->
+
+                    <tr>
+                        <td class="align-middle">14:30 - 16:00</td>
+                        <td rowspan="5">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                        <td rowspan="5">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-sky table__cell">Research session</span>
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+
+                    </tr>
+                    <!-- 16:00 - 16:20-->
+
+                    <tr>
+                        
+                        <td class="align-middle">16:00 - 16:20</td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-purple table__cell">Talk</span>
+                            <div class="cell__speaker">David Orden</div>
+                            <div class="cell__presentation">Using graphs to understand opinions</div>
+                            <span>Online at: <a href="#">Link</a></span>
+
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+
+                    </tr>
+                    <!-- 16:20 - 16:40-->
+                    <tr>
+                        <td class="align-middle">16:20 - 16:40</td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-green table__cell">Talk</span>
+                            <div class="cell__speaker">David Flores</div>
+                            <div class="cell__presentation">Computational complexity of finding perfect rainbow polygons
+                            </div>
+                            <span>Online at: <a href="#">Link</a></span>
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+
+                    </tr>
+
+                    <!-- 16:40 - 17:00-->
+
+                    <tr>
+                        <td class="align-middle">16:40 - 17:00</td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        <td class="align-middle">
+                            <span class="bg-pink table__cell">Talk</span>
+                            <div class="cell__speaker">Andrea de las Heras</div>
+                            <div class="cell__presentation">Voronoi Diagrams of Arbitrary Order on the Sphere
+                            </div>
+                            <span>Online at: <a href="#">Link</a></span>
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+
+                    </tr>
+                    <!-- 17:00 - 17:30-->
+
+                    <tr>
+                        <td class="align-middle">17:00 - 17:30</td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        <td class="bg-light-gray">
+
+                        </td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    <!-- FIN DE LA TABLA -->
+    <hr>
+    <div class="list__leader list-group-item" style="border-radius: 0.25rem;">
+        Abstracts:
+    </div>
+    <p></p>
+    <div class="card__container">
+        <div class="card card__abstract">
+            <div class="card-body">
+              <h5 class="card-title">Using graphs to understand opinions</h5>
+              <p class="card-text">In the last few years, the use of graph techniques has provided new approaches to the collection and analysis of opinions. The fields of application range from food preference to acquisition of mathematical notions in kindergarten. This talk will review some of the techniques and results used, aiming that the audience can identify other possible areas of application.</p>
+              <!--<a href="#" class="card-link">Card link</a>-->
+            </div>
+          </div>
+          
+          <div class="card card__abstract" >
+            <div class="card-body">
+              <h5 class="card-title">Computational complexity of finding perfect rainbow polygons.</h5>
+              <p class="card-text"><p>Let <span class="math inline">\(S\)</span> be a <span
+                class="math inline">\(k\)</span>-colored point set in the plane in
+                general position (no three points on the same line). A on <span
+                class="math inline">\(S\)</span> is a simple polygon that contains
+                exactly one point of <span class="math inline">\(S\)</span> of each of
+                the <span class="math inline">\(k\)</span> colors, either on its
+                interior or on its boundary.</p>
+                <p>In [D. Flores-Penaloza, M. Kano, L. Martínez-Sandoval, D. Orden, J.
+                Tejel, C.D. Tóth, J. Urrutia, B. Vogtenhuber. Rainbow polygons for
+                colored point sets in the plane, Discrete Mathematics, 334(7), 2021],
+                the authors define and study the combinatorial problem of determining
+                the number rb-index(<span class="math inline">\(k\)</span>): the
+                smallest integer such that every <span class="math inline">\(k\)</span>
+                colored point set in general position has a perfect rainbow polygon with
+                at most rb-index(<span class="math inline">\(k\)</span>) vertices. They
+                conjecture that the following related problem is NP-Hard:</p>
+                <p>We prove this conjecture is true, reducing from <strong>one-in-three
+                    3-SAT</strong>.</p>
+              <!--<a href="#" class="card-link">Card link</a>-->
+            </div>
+          </div>
+          <div class="card card__abstract">
+            <div class="card-body">
+              <h5 class="card-title">Voronoi Diagrams of Arbitrary Order on the Sphere</h5>
+              <p class="card-text"><p>For a given set of points <span class="math inline">\(U\)</span> on a
+                sphere <span class="math inline">\(S\)</span>, the order <span
+                class="math inline">\(k\)</span> spherical Voronoi diagram <span
+                class="math inline">\(SV_k(U)\)</span> decomposes the surface of <span
+                class="math inline">\(S\)</span> into regions whose points have the same
+                <span class="math inline">\(k\)</span> nearest points of <span
+                class="math inline">\(U\)</span>. Hyeon-Suk Na, Chung-Nim Lee, and
+                Otfried Cheong (Comput. Geom., 2002) applied inversions to construct
+                <span class="math inline">\(SV_1(U)\)</span>. We generalize their
+                construction for spherical Voronoi diagrams from order <span
+                class="math inline">\(1\)</span> to any order <span
+                class="math inline">\(k\)</span>. We use that construction to prove
+                formulas for the numbers of vertices, edges, and faces in <span
+                class="math inline">\(SV_k(U)\)</span>. These formulas were not known
+                before. We obtain several more properties for <span
+                class="math inline">\(SV_k(U)\)</span>, and we also show that <span
+                class="math inline">\(SV_k(U)\)</span> has a small orientable cycle
+                double cover.</p></p>
+              <!--<a href="#" class="card-link">Card link</a>-->
+            </div>
+          </div>
+    </div>
+    <p></p>
+    
+</div>
+    <footer class="footer" style="position: fixed;">
+        <div class="container__footer">
+            <span class="text-muted texto__footer"><img class="eu__flag" src="./assets/European-Union-flag-Graphics-1.png">This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 734922.</span>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+  -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.list__leader {
+    background-color: #183052;
+    border-color: #235065;
+    color:white;
+}
+
+.iframe__mapa {
+height: 300px;
+}
+
+.lista__container {
+    min-width: 45%;
+}
+
+.container__full {
+ max-width: 80%;   
+ background-color: #483b4f0f;
+}
+.cell__presentation {
+    font-style: italic;
+}
+.cell__speaker {
+    position: relative;
+    font-weight: 600;
+    top: 4px;
+}
+.container__footer {
+  line-height: normal;
+  padding-left: 8%;
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text__footer {
+    height: 60px;
+    text-align: center;
+}
+
+.jumbotron__container {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title__text {
+    font-size: 1.75rem;
+    background-color: #18305261;
+    border-radius: 6px;
+}
+
+.title__container {
+    color: #fff;
+    background-image: url("./assets/geometric-background-1514584882En0.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 75px;
+}
+
+.header__info__text {
+    font-weight: 600;
+}
+.card__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__abstract {
+    width: 28rem;
+}
+/* CSS PARA LA TABLA*/
+.bg-light-gray {
+    background-color: #23506542;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+.eu__flag {
+    width:60px;
+    margin-right: 24px;
+}
+.table__cell {
+    font-weight: 600;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.bg-sky {
+    background-color: #02c2c7
+}
+
+.bg-orange {
+    background-color: #e95601
+}
+
+.bg-green {
+    background-color: #5bbd2a
+}
+
+.bg-yellow {
+    background-color: #f0d001
+}
+
+.bg-pink {
+    background-color: #ff48a4
+}
+
+.bg-purple {
+    background-color: #9d60ff
+}
+
+.bg-lightred {
+    background-color: #ff5722
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
