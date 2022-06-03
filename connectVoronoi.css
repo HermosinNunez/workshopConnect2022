@@ -43,7 +43,7 @@ width: 100%;
 }
 
 .container__full {
- max-width: 80%;   
+    max-width: 170vmin;
  background-color: #483b4f0f;
 }
 .cell__presentation {
